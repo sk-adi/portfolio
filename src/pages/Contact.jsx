@@ -21,7 +21,7 @@ function Contact() {
             />
             <input className="bg-[#282828] w-full pl-2 focus:outline-none " type="email" placeholder="Email" />
             <textarea className="bg-[#282828] w-full h-28 pl-2 focus:outline-none" name="/" id="/" placeholder="Message"></textarea>
-            <input className='md:text-2xl px-6 py-2 sm:px-8 sm:py-3 pt-4 md:mt-2 border-b-2 border-[#FF4D5A]  transition duration-700 hover:bg-[#FF4D5A]' type="submit" value="Submit" />
+            <input className='md:text-2xl px-6 py-2 sm:px-8 sm:py-3 pt-4 md:mt-2 border-b-2 border-[#FF4D5A]  transition duration-300 hover:bg-[#FF4D5A] hover:text-black' type="submit" value="Submit" />
           </form>
         </div>
       </div>
