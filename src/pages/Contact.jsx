@@ -19,9 +19,24 @@ function Contact() {
               type="text"
               placeholder="Name"
             />
-            <input className="bg-[#282828] w-full pl-2 focus:outline-none " type="email" placeholder="Email" />
-            <textarea className="bg-[#282828] w-full h-28 pl-2 focus:outline-none" name="/" id="/" placeholder="Message"></textarea>
-            <input className='md:text-2xl px-6 py-2 sm:px-8 sm:py-3 pt-4 md:mt-2 border-b-2 border-[#FF4D5A]  transition duration-300 hover:bg-[#FF4D5A] hover:text-black' type="submit" value="Submit" />
+            <input
+              className="bg-[#282828] w-full pl-2 focus:outline-none "
+              type="email"
+              placeholder="Email"
+            />
+            <textarea
+              className="bg-[#282828] w-full h-28 pl-2 focus:outline-none"
+              name="/"
+              id="/"
+              placeholder="Message"
+            ></textarea>
+            <div className="  hover:text-black text-2xl md:text-2xl font-bold px-4 py-2 sm:px-4 sm:py-2 md:pt-2 md:px-2  relative overflow-hidden before:absolute  before:left-0 before:bottom-[0] before:w-full before:h-[3px] hover:before:h-full before:bg-[#FF4D5A]  before:transition-all before:duration-300 hover:before:z-[-1]">
+            <input
+            className="cursor-pointer"
+              type="submit"
+              value="Submit"
+            />
+            </div> 
           </form>
         </div>
       </div>
