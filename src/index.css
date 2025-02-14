@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --font-montserrat: "Montserrat", serif;
+}
 
 body {
-  @apply font-mono;
-  @apply bg-[#1A1A1A] text-white
+  @apply bg-[#1A1A1A] text-white;
+  font-family: var(--font-montserrat);
 }
 
 /* :root {

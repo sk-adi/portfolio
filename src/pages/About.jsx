@@ -11,8 +11,8 @@ function About() {
         <>
             <div className=" px-4 md:flex md:justify-around">
                 <div className=" md:text-balance rounded-xl md:w-1/2 ">
-                    <h2 className="text-5xl text-center">About me</h2>
-                    <p className="text-center pt-4">
+                    <h2 className="text-4xl md:text-5xl font-bold text-center pt-12">About me</h2>
+                    <p className="text-left pt-4 text-base md:text-lg font-light md:font-medium leading-1.6 md:leading-1.8 ">
                         Turning ideas into interactive experiences! I’m Aditya Kumar, a
                         frontend developer who loves crafting sleek, responsive web
                         applications. With a strong foundation in modern web technologies, I
@@ -20,7 +20,7 @@ function About() {
                         that matter
                     </p>
                 </div>
-                <div className="flex gap-4 pt-8">
+                <div className="flex  justify-center gap-4 pt-8">
                     <div className="md:px-2">
                         <img
                             src={htmlLogo}
