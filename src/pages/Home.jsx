@@ -11,7 +11,7 @@ function Home() {
             <span>I'm a front end web developer.</span>
           </div>
           <div className="flex justify-center m-8">
-            <button className="border-2  w-3xs text-xl md:text-3xl h-14 font-bold transform-transition duration-300 hover:scale-105 border-[#FF4D5A] text-[#FF4D5A] cursor-pointer">View my work &#8595;</button>
+            <button className="border-2 w-fit px-2 md:w-3xs text-xl md:text-2xl h-14 md:font-bold transform-transition duration-300 hover:scale-105 border-[#FF4D5A] text-[#FF4D5A] cursor-pointer">View my work &#8595;</button>
           </div>
         </div>
       </div>

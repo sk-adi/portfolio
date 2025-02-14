@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <div className=" flex justify-center mb-8 pt-18">
-        <div className="md:w-1/2 px-10 md:px-28 ">
+        <div className="md:w-1/2 px-12 md:px-12 lg:px-28 ">
           <h1 className="text-4xl md:text-5xl font-bold text-center pt-12">Contact</h1>
           <p className="text-left pt-4 text-base md:text-lg font-light md:font-medium leading-1.6 md:leading-1.8 w-full">
             Have a question or want to work together? Leave your details and
